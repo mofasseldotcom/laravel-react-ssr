@@ -49,6 +49,12 @@
 
 	dispatch(html);
 
+## Make comment on mentioned two lines into Example.js file
+
+	// if (document.getElementById('example')) {
+	//     ReactDOM.render(<Example />, document.getElementById('example'));
+	// }
+
 ## Add bellow mentioned two lines into webpack.mix.js file
 
 	.react('resources/js/app-client.js', 'public/js')
